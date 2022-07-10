@@ -11,6 +11,8 @@
 - 해당 파일내용은 이미지경로와 라벨값, 이미지경로와 라벨값은 \t으로 구분하며 각 문장마다 \n로 넘김
 - ex) train/test1.png \t 라벨값 \n 
 
+## 예제코드
+- python3 create_lmdb_dataset.py --inputPath data/ --gtFile data/gt_train.txt --outputPath data_lmdb/train
 
 
 
